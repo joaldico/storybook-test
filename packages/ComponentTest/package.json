@@ -1,0 +1,24 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "storybook",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "@storybook/storybook-deployer": "^2.8.6",
+    "babel-loader": "^8.1.0",
+    "lerna": "^3.22.1"
+  }
+}
