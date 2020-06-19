@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "storybook",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://workshop21.lab.plugbox.io/repository/npm/"
+  },
   "scripts": {
     "storybook": "start-storybook",
     "deploy-storybook": "storybook-to-ghpages"
